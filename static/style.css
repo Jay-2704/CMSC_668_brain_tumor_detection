@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    width: 300px; /* Adjusted width for better alignment */
+    width: 400px; /* Adjusted width for better alignment */
     text-align: center;
     background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
     padding: 50px;
@@ -26,7 +26,7 @@ body {
     display: flex;
     flex-direction: column; /* Stack items vertically */
     justify-content: space-between; /* Space between items */
-    height: 400px; /* Set a fixed height */
+    height: 500px; /* Set a fixed height */
 }
 
 h1 {
