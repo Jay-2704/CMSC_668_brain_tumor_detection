@@ -21,11 +21,12 @@
                 <a href="/" class="nav-link">Home</a>
                 <a href="/about" class="nav-link">Brain Tumors</a>
                 <a href="#services" class="nav-link">Services</a>
-                <a href="contact" class="nav-link">Contact Us</a>
+                <a href="/contact" class="nav-link">Contact Us</a>
             </div>
         </div>
     </nav>
 
+    <!-- Main Content -->
     <div style="display: flex; width: 100%; align-items: center; margin-top: 80px;">
         <!-- Left Side: Form -->
         <div class="container">
@@ -38,20 +39,12 @@
                 <input type="file" name="image" accept="image/*" required>
                 <button type="submit">Upload MRI Image</button>
             </form>
-            {% if uploaded_image %}
-            <!-- Uploaded Image Section -->
-            <div>
-                <h3>Uploaded Image:</h3>
-                <img src="{{ uploaded_image }}" alt="Uploaded Image" class="uploaded-image">
-            </div>
+
+            {% if prediction %}
+            <!-- Prediction Section -->
+            <h2>Prediction Result: {{ prediction }}</h2>
             {% endif %}
         </div>
-    </div>
-
-        <!-- Right Side: Image -->
-        <!-- <div class="image-container">
-            <img src="{{ url_for('static', filename='brain.jpeg') }}" alt="Brain Image">
-        </div> -->
     </div>
 </body>
 </html>
