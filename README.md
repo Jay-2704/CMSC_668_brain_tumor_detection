@@ -39,7 +39,7 @@ CMSC_668_brain_tumor_detection/
 │   └── model.h5
 ```
 
-### 5. Download the Model File
+### 5. Your directory will look like
 
 ```
 CMSC_668_brain_tumor_detection/
@@ -50,6 +50,7 @@ CMSC_668_brain_tumor_detection/
 ├── static/
 │   ├── uploads/
 │   └── ...
+|   └── style.css
 ├── templates/
 │   └── index.html
 └── README.md
