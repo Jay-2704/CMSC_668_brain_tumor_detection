@@ -4,23 +4,87 @@
 Link to Model: https://drive.google.com/drive/folders/12cdcVJYoenwH2WIF_IuYXjKRrFiedDnn?dmr=1&ec=wgc-drive-hero-goto
 
 
-# Brain Tumor Detection
+Here's the updated `README.md` in the desired format:
 
-## Overview
-This project uses a pre-trained deep learning model to detect brain tumors from MRI images. It provides a web-based interface for users to upload an image and get predictions.
+```markdown
+# Brain Tumor Detection Flask Application
 
----
-
-## Requirements
-- Python 3.7 or later
-- pip (Python package manager)
+This is a Flask application for detecting brain tumors using MRI images. The project uses a pre-trained CNN model (`.h5` file) for predictions.
 
 ---
 
-## Setup Instructions
+## Prerequisites
 
-### Step 1: Clone the Repository
-Download or clone the repository to your local machine:
+- Python 3.7 or higher
+- `pip` (Python package installer)
+
+---
+
+## Instructions to Set Up and Run the Project
+
+### 1. Clone the Repository
+First, clone the repository to your local machine:
 ```bash
-git clone https://github.com/YourUsername/CMSC_668_brain_tumor_detection.git
-cd CMSC_668_brain_tumor_detection
+git clone <repository_link>
+```
+
+### 2. Navigate to the Project Directory
+Move into the project directory:
+```bash
+cd <repository_name>
+```
+
+### 3. Install Dependencies
+Install the required Python libraries from the `requirements.txt` file:
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Download the Model File
+Download the `.h5` model file from [[this Google Drive link](<google_drive_link>)](https://drive.google.com/drive/folders/12cdcVJYoenwH2WIF_IuYXjKRrFiedDnn?dmr=1&ec=wgc-drive-hero-goto). Once downloaded, move the file to the `models/` directory in your project:
+```
+<repository_name>/
+├── models/
+│   └── model.h5
+```
+
+### 5. Run the Flask Application
+Run the application using the following command:
+```bash
+python app.py
+```
+
+### 6. Access the Application
+Open your browser and navigate to:
+```
+http://127.0.0.1:5000/
+```
+
+---
+
+## Features
+- Upload MRI images for brain tumor detection.
+- Real-time prediction and visualization.
+- User-friendly interface.
+
+---
+
+## Troubleshooting
+- Ensure all dependencies are installed correctly.
+- Verify the `model.h5` file is in the `models/` folder.
+- If the application doesn't run, check for errors in the terminal and ensure Python is installed correctly.
+
+---
+
+## License
+This project is for educational purposes only. For any other usage, please contact the author.
+
+---
+
+## Credits
+- Flask Framework
+- TensorFlow/Keras
+- [Your Name/Team]
+```
+
+Replace `<repository_link>` and `<google_drive_link>` with the actual links. This format keeps everything structured and easy to follow.
