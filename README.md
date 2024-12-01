@@ -10,14 +10,14 @@ This is a Flask application for detecting brain tumors using MRI images. The pro
 
 ---
 
-## Prerequisites
+# Prerequisites
 
 - Python 3.7 or higher
 - `pip` (Python package installer)
 
 ---
 
-## Instructions to Set Up and Run the Project
+# Instructions to Set Up and Run the Project
 
 ### 1. Clone the Repository
 First, clone the repository to your local machine:
