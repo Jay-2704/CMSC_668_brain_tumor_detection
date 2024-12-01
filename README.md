@@ -78,4 +78,3 @@ This project is for educational purposes only. For any other usage, please conta
 - Jay and Team
 ```
 
-Replace `<repository_link>` and `<google_drive_link>` with the actual links. This format keeps everything structured and easy to follow.
