@@ -17,6 +17,7 @@ This is a Flask application for detecting brain tumors using MRI images. The pro
 First, clone the repository to your local machine:
 ```bash
 git clone git@github.com:Jay-2704/CMSC_668_brain_tumor_detection.git
+```
 
 ### 2. Navigate to the Project Directory
 Move into the project directory:
