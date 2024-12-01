@@ -1,9 +1,6 @@
 # CMSC_668_brain_tumor_detection
 
 
-Link to Model: https://drive.google.com/drive/folders/12cdcVJYoenwH2WIF_IuYXjKRrFiedDnn?dmr=1&ec=wgc-drive-hero-goto
-
-
 Here's the updated `README.md` in the desired format:
 
 ```markdown
@@ -25,13 +22,13 @@ This is a Flask application for detecting brain tumors using MRI images. The pro
 ### 1. Clone the Repository
 First, clone the repository to your local machine:
 ```bash
-git clone <repository_link>
+git clone git@github.com:Jay-2704/CMSC_668_brain_tumor_detection.git
 ```
 
 ### 2. Navigate to the Project Directory
 Move into the project directory:
 ```bash
-cd <repository_name>
+cd CMSC_668_brain_tumor_detection
 ```
 
 ### 3. Install Dependencies
@@ -41,7 +38,7 @@ pip install -r requirements.txt
 ```
 
 ### 4. Download the Model File
-Download the `.h5` model file from [[this Google Drive link](<google_drive_link>)](https://drive.google.com/drive/folders/12cdcVJYoenwH2WIF_IuYXjKRrFiedDnn?dmr=1&ec=wgc-drive-hero-goto). Once downloaded, move the file to the `models/` directory in your project:
+Download the `.h5` model file from [[[[this Google Drive link](https://drive.google.com/dri](https://drive.google.com/drive/folders/12cdcVJYoenwH2WIF_IuYXjKRrFiedDnn?dmr=1&ec=wgc-drive-hero-goto). Once downloaded, move the file to the `models/` directory in your project:
 ```
 <repository_name>/
 ├── models/
@@ -57,7 +54,7 @@ python app.py
 ### 6. Access the Application
 Open your browser and navigate to:
 ```
-http://127.0.0.1:5000/
+http://127.0.0.1:5001/
 ```
 
 ---
@@ -84,7 +81,7 @@ This project is for educational purposes only. For any other usage, please conta
 ## Credits
 - Flask Framework
 - TensorFlow/Keras
-- [Your Name/Team]
+- Jay and Team
 ```
 
 Replace `<repository_link>` and `<google_drive_link>` with the actual links. This format keeps everything structured and easy to follow.
