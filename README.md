@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ### 4. Download the Model File
 Download the `.h5` model file from [[[[this Google Drive link](https://drive.google.com/dri](https://drive.google.com/drive/folders/12cdcVJYoenwH2WIF_IuYXjKRrFiedDnn?dmr=1&ec=wgc-drive-hero-goto). Once downloaded, move the file to the `models/` directory in your project:
 ```
-<repository_name>/
+CMSC_668_brain_tumor_detection/
 ├── models/
 │   └── model.h5
 ```
