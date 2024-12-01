@@ -1,29 +1,22 @@
-# CMSC_668_brain_tumor_detection
-
-
-Here's the updated `README.md` in the desired format:
-
-```markdown
 # Brain Tumor Detection Flask Application
 
 This is a Flask application for detecting brain tumors using MRI images. The project uses a pre-trained CNN model (`.h5` file) for predictions.
 
 ---
 
-# Prerequisites
+## Prerequisites
 
 - Python 3.7 or higher
 - `pip` (Python package installer)
 
 ---
 
-# Instructions to Set Up and Run the Project
+## Instructions to Set Up and Run the Project
 
 ### 1. Clone the Repository
 First, clone the repository to your local machine:
 ```bash
 git clone git@github.com:Jay-2704/CMSC_668_brain_tumor_detection.git
-```
 
 ### 2. Navigate to the Project Directory
 Move into the project directory:
