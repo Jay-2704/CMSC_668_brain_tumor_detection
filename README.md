@@ -39,13 +39,29 @@ CMSC_668_brain_tumor_detection/
 │   └── model.h5
 ```
 
-### 5. Run the Flask Application
+### 5. Download the Model File
+
+```
+CMSC_668_brain_tumor_detection/
+├── app.py
+├── requirements.txt
+├── models/
+│   └── Brain_Tumors_vgg_final.h5
+├── static/
+│   ├── uploads/
+│   └── ...
+├── templates/
+│   └── index.html
+└── README.md
+```
+
+### 6. Run the Flask Application
 Run the application using the following command:
 ```bash
 python app.py
 ```
 
-### 6. Access the Application
+### 7. Access the Application
 Open your browser and navigate to:
 ```
 http://127.0.0.1:5001/
